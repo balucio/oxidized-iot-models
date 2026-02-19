@@ -25,7 +25,7 @@ The **Tasmota** model is implemented as an **`exec` model**. It uses the `decode
 
 The **OpenBeken** model uses the **HTTP input**. The model automatically retrieves the pin configuration from `/api/pins`, downloads the internal filesystem (LFS) via `/api/lfs/`, and fetches the binary configuration dump directly from the flash memory.
 
-All decoding and formatting is handled **directly inside the model**, so no external tools or scripts are required. Compared to the Tasmota model, this implementation is fully self-contained but more simple.
+All decoding and formatting is handled **directly inside the model**, so no external tools or scripts are required.
 
 ---
 
